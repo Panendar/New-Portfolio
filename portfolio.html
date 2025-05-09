@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panendar's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div id="header">
+        <div id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#MySkills">My Skills</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#Certificates">My Certificates</a></li>
+                <li><a href="#ContactMe">Contact Me</a></li>
+            </ul>
+        </div>
+        <div id="text">
+            <h1><i>Hi it's Panendar Reddy</i></h1>
+            <h2><i>I'm a Software Engineer</i></h2>
+            <br>
+            <p>A person who wants to become a passionate software engineer who thrives on coding and enjoys the process of building seamless, user-friendly web and mobile applications. I combine creativity with technical expertise to deliver high-quality solutions. Here's a bit more about me! I have practical experience working with Data Structures such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables, applying them to improve algorithm efficiency. In Web Development, I'm skilled in HTML, CSS, JavaScript, and MySQL, and I also have expertise in C++ and Java for back-end development and database management. Check out some of my projects!</p>
+        </div>
+        <br>
+        <div id="MySkills">
+            <h1><i><b>My Skills</b></i></h1>
+            <ul>
+                <li><a href="#">C Language</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">Frontend Developer<br>
+                     HTML, CSS, JavaScript</a></li>
+                     <li><a href="#">SQL</a></li>
+            </ul>
+        </div>
+        <div id="projects">
+            <h1><i><b>Recent Projects</b></i></h1>
+            <br>
+            <div class="project-card">
+                <img src="AI Project.jpg" alt="AI Student Performance Predictor">
+                <div class="project-content">
+                    <h2><i>AI Student Performance Predictor</i></h2>
+                    <p>This project uses machine learning algorithms such as Random Forest,and Logistic Regression to predict student performance based on various factors like attendance, assignment scores, and participation.</p>
+                </div>
+            </div>
+            <div id="projects">
+                <br>
+                <div class="project-card">
+                    <img src="Hotel Management System.png" alt="Hotel Management">
+                    <div class="project-content">
+                        <h2><i>Hotel Management System</i></h2>
+                        <p>The Hotel Management System is a comprehensive desktop application developed using Python's Tkinter library to streamline operations in a hotel environment. The system features a user-friendly dashboard that enables efficient navigation across multiple modules including Guest Management, Room Management, Employee Management, Restaurant and Menu Management, Event Hall Management, and Drivers Management.</p>
+                    </div>
+                </div>
+        </div>
+        </div>
+        <div id="Certificates">
+            <h1><i><b>My Certificates...</b></i></h1>
+            <br>
+            <div class="Certificates-cards">
+                <h2><i>DBMS Certificate</i></h2>
+                <img src="DBMS Certificate.png" alt="DBMS Certificate">
+                <h2><i>C Certificate</i></h2>
+                <img src="Udemy.png" alt="Udemy C language Certificate ">
+                <h2><i>Hacker Rank</i></h2>
+                <img src="Hacker Rank.png" alt="Hacker Rank">
+                <h2><i>Code chef</i></h2>
+                <img src="Code chef.png" alt="Code chef">
+                <h2><i>DSA-Elab</i></h2>
+                <img src="DSA-ELAB.png" alt=" DSA e-Lab">
+                <h2><i>DAA-ELab</i></h2>
+                <img src="DAA-ELAB.png" alt="DAA e-Lab">
+            </div>
+        </div>
+        <div id="ContactMe">
+            <h1>Send Me a Message</h1>
+            <p>Fill out the form below and I'll get back to you as soon as possible</p>
+            <form id="contact-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, question, or just say hello!" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>
